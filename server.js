@@ -33,7 +33,7 @@ const server = app.get("/", (req, res) => {
 });
  app.listen(process.env.PORT, () => {
   console.log(
-    `Server is running on http://localhost:${process.env.PORT}`
+    `Server is running on ${process.env.REACT_APP_API_URL}`
   );
 });
 
