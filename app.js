@@ -6,7 +6,7 @@ const bodyParser = require("body-parser");
 const cors = require("cors");
 
 app.use(cors({
-  origin: ['https://merchmind-backend-production.up.railway.app',],
+  origin: ['https://merchmind.netlify.app',],
   credentials: true
 }));
 
